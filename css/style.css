@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+/*
+#cc6b6b
+#bb5050
+#cc6b6b
+*/
+* {
+  margin: 0;
+  border: 0;
+}
+body {
+  background: rgba(50, 50, 50, 1);
+}
+.header {
+  background: #cc6b6b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 5em;
+  padding: 1em auto;
+}
+.heading:hover {
+  color: yellow;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background: rgb(200, 20, 20);
+  opacity: 0.75;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+  /* margin: 1em auto; */
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  /* width: 50%; */
+  /* margin: 1em auto; */
+}
+.nav-list li {
+  list-style: none;
+  padding: 1em;
+}
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  /* font-size: 15px; */
+  font-family: "Ubuntu", sans-serif;
+}
+.nav-list li a:hover {
+  color: rgba(50, 50, 50, 1);
+  /* font-size: 17px;
+  font-weight: bold; */
+}
+.sec-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #cc6b6b;
+  color: #ffffff;
+  margin: 1em auto;
+  padding: 2em;
+}
+.sec-1 h2 {
+  padding: 1em;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 35px;
+}
+.sec-1 p {
+  font-size: x-large;
+}
+.sec-2 {
+  padding: 3em;
+  color: #ffffff;
+  /* justify-content: center; */
+  background: #cc6b6b;
+  margin: 1em auto;
+}
+.sec-1 h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec-1 
+.second-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec-1 img{
+  border: 3px solid rgba(50, 50, 50, 1);
+  border-radius: 50%;
+}
+.sec-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec-2 h2 {
+  padding: 1em;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 35px;
+}
+.sec-2 .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec-2 img {
+  width: 20%;
+  margin: 1.5em;
+  padding: 10px;
+  background: rgba(50, 50, 50, 1);
+}
+.sec-2 img:hover {
+  background: #d8c2c2;
+  opacity: 0.75;
+}
+.sec-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background: #cc6b6b;
+  margin: 1em auto;
+}
+.sec-3 h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec-3 .first-div a {
+  margin: 0.5em;
+  padding: 0.1em;
+  font-size: 7em;
+  color: rgb(255, 255, 255);
+}
+.sec-3 .second-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec-3 h2 {
+  padding: 1em;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 35px;
+}
+.sec-3 .first-div #i1:hover {
+  color: #0077b5;
+}
+.sec-3 .first-div #i2:hover {
+  color: #dd2a7b;
+}
+.sec-3 .first-div #i3:hover {
+  color: #1da1f2;
+}
+.sec-3 .first-div #i4:hover {
+  color: #211f1f;
+}
+.sec-4 {
+  color: #ffffff;
+  background: #cc6b6b;
+  height: 100%;
+}
+.sec-4 h2 {
+  padding: 1em;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 35px;
+}
+
+.sec-4 .first-div {
+  max-width: 62%;
+  margin: 1em auto;
+}
+
+.form-input {
+  margin: 14px 0;
+  /* padding: 5px 13px; */
+  width: 100%;
+  font-size: 20px;
+  border: 2px solid grey;
+  border-radius: 6px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec-4 .btn {
+  padding: 8px 20px 10px;
+  margin: 8px 3px 80px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: cursive;
+  font-weight: bold;
+}
+.sec-4 .btn:hover {
+  background-color: rgb(197, 200, 20);
+}
+.text-footer {
+  text-align: center;
+  padding: 0 0 25px 0;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
