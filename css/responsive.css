@@ -1,4 +1,4 @@
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 800px) {
   .nav-list {
     flex-direction: column;
   }
@@ -18,5 +18,8 @@
   }
   .v-class-resp {
     opacity: 0;
+  }
+  .up {
+    margin: 1em;
   }
 }
