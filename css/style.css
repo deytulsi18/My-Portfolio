@@ -16,7 +16,7 @@ body {
   justify-content: center;
   color: rgb(255, 104, 78);
   font-size: 1.7em;
-  margin: 0 0.5em 0 0.05em;
+  /* margin: 0 0.5em 0 0.5em; */
   padding: 1em 0 1em 0;
   text-align: center;
   border-bottom: 1px solid rgb(95, 23, 10);
