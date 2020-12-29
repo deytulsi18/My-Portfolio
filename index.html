@@ -31,7 +31,7 @@
     <header class="header">
         <div class="first-div">
             <h1 class="heading" id="home">
-                Welcome to my Webpage!
+               <span class="typed"></span>
             </h1>
         </div>
     </header>
@@ -139,6 +139,18 @@
             glare: true,
             "max-glare": 0.5,
         })
+    </script><script src="js/typed.js"></script>
+    <script>
+        var typed = new Typed(".typed", {
+  strings: [
+      "Hello there,",
+      "Welcome",
+      "to my",
+      "Webpage !"],
+  typeSpeed: 50,
+  backSpeed: 50,
+  loop: true
+});
     </script>
 </body>
 
