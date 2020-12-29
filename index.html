@@ -8,18 +8,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="first-div">
-            <ul class="nav-list">
+    <nav class="navbar h-nav-resp">
+        <div class="first-div ">
+            <ul class="nav-list v-class-resp">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#connect">Connect</a></li>
-                <li><a href="#feedback">Feedback</a></li>
+                <li><a href="#hire-me">Hire Me</a></li>
             </ul>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
         </div>
     </nav>
     <header class="header">
@@ -35,13 +41,17 @@
             <div class="second-div">
                 <img src="imgs/img.jpg" width="25%" class="tilt">
             </div>
-            <h2>Hello there,</h2><h2> I am <span>&nbspT</span>ulsi <span>&nbspD</span>ey</h2>
+            <h2>Hello there,</h2>
+            <h2> I am <span>&nbspTulsi&nbsp</span> Dey</h2>
             <br>
-            <p>I am Tulsi Dey, a freshman year undergrad student pursuing B.Tech in Information Technology at Meghnad Saha Institute of Technology, Kolkata, West Bengal, India.
+            <p>I am Tulsi Dey, a freshman year undergrad student pursuing B.Tech in Information Technology at Meghnad
+                Saha Institute of Technology, Kolkata, West Bengal, India.
             </p>
             <br>
             <p>
-                I love programming in general and am enthusiastic about open source development and problem solving in programming. I look forward to learning about new technologies and skills for creating and helping create products that would solve problems in the lives of people.</p>
+                I love programming in general and am enthusiastic about open source development and problem solving in
+                programming. I look forward to learning about new technologies and skills for creating and helping
+                create products that would solve problems in the lives of people.</p>
         </div>
     </section>
     <br>
@@ -62,7 +72,7 @@
             <div class="icons">
                 <img src="imgs/python_logo.png" alt="python logo" class="lang">
                 <img src="imgs/vs-code_logo.png" alt="vs code logo" class="lang">
-                <img src="imgs/git_logo.png" width="24%" alt="git logo" class="lang">
+                <img src="imgs/git_logo.png" alt="git logo" class="lang">
             </div>
         </div>
     </section>
@@ -72,48 +82,64 @@
         <div class="first-div">
             <h2 class="heads">Connect with me</h2>
             <div class="soci">
-                <a href="https://www.linkedin.com/in/deytulsi18/" id="i1"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                <a href="mailto:deytulsi18@gmail.com" id="i0" target="_blank" rel="noopener noreferrer"><i
+                        class="fa fa-google" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/deytulsi18/" id="i1"><i class="fa fa-linkedin-square"
+                        aria-hidden="true"></i></a>
                 <a href="" id="i2"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                <a href="https://twitter.com/deytulsi18/" id="i3"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                <a href="https://github.com/deytulsi18/" id="i4"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/deytulsi18/" id="i3"><i class="fa fa-twitter-square"
+                        aria-hidden="true"></i></a>
+                <a href="https://github.com/deytulsi18/" id="i4"><i class="fa fa-github-square"
+                        aria-hidden="true"></i></a>
             </div>
         </div>
     </section>
     <br>
     <hr>
-    <section class="sec-4" id="feedback">
+    <section class="sec-4" id="hire-me">
         <div class="first-div">
-            <h2 class="heads">Your Feedback</h2>
-            <div class="form">
-                <input class="form-input" type="text" name="name" id="name" placeholder="Enter your Name">
-                <!-- <input class="form-input" type="phone" name="phone" id="phone" placeholder="Enter your Phone"> -->
-                <input class="form-input" type="email" name="email" id="email" placeholder="Enter your email">
-                <textarea class="form-input" name="text" id="text" cols="30" rows="5" placeholder="Message"></textarea>
-                <button class="btn">Submit</button>
-            </div>
-        </div>
-    </section>
+            <h2 class="heads">Hire Me</h2>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>TD</h2>
+                <h3>Tulsi Dey</h3>
+                <br>
+                <p>Email: deytulsi18@gmail.com</p>
+                <br>
+                <p>Skills: HTML, CSS, JavaScript, C, C++, Java, Python, VS Code, Git(version control system).</p>
+                <a href="#about">Read More</a>
+    </div>
+</div>
+<a href="#" class="up">&#9650</a>
+</div>
+</div>
+</section>
     <br>
     <hr>
     <footer class="footer">
         <p class="text-footer">
-            Copyright &copy; 2020 - www.MyPortfolio.com - All rights reserved
+            &#128522 Thank you for visiting!
         </p>
     </footer>
-    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script src="js/resp.js"></script>
+    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
     <script>
-        VanillaTilt.init(document.querySelectorAll(".lang"), {
-		max: 25,
-        speed: 400,
-        glare:  true,
-        "max-glare": 1,
-    });
-    VanillaTilt.init(document.querySelectorAll(".tilt"), {
-		max: 25,
-        speed: 400,
-        glare:  false,
-        "max-glare": 1,
-	});
+        VanillaTilt.init(document.querySelectorAll(".lang, .card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+        })
+    </script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".tilt, .form"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.5,
+        })
     </script>
 </body>
+
 </html>
